@@ -21,7 +21,7 @@ module.exports = {
   deploy : {
     production : {
       user : 'tcly861204',
-      host : 'localhost:3000',
+      host : 'localhost:81',
       ref  : 'origin/master',
       repo : 'git@github.com:koa2-web.git',
       path : '/usr/src/koa2-web',
