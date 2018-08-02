@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "pm2 start .pm2.config.js",
-    "build": "pm2 deploy .pm2.config.js production setup"
+    "build": "pm2 deploy .pm2.config.js production"
   },
   "repository": {
     "type": "git",
