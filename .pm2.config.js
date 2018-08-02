@@ -23,7 +23,7 @@ module.exports = {
       user : 'tcly861204',
       host : 'tcly861204.com',
       ref  : 'origin/master',
-      repo : 'git@github.com:koa2-web.git',
+      repo : 'git@github.com:tcly861204/koa2-web.git',
       path : '/usr/src/koa2-web',
       'post-deploy' : 'npm install && pm2 reload .pm2.config.js --env production'
     }
